@@ -1,13 +1,13 @@
 # Audio-Based Room Size Estimation using MATLAB
 This project estimates room size (volume) from recorded audio using RT60 reverberation time.  
-The method is based on the Sabine formula, where reverberation decay is extracted from a clap sound.
+The method is based on the Sabine formula, which extracts reverberation decay from a clap sound.
 
 ## Features
-*Records or loads a clap sound.
-*Extracts the Room Impulse Response (RIR).
-*Estimates RT60 using Schroeder’s energy decay method.
-*Calculates the approximate room volume.
-*Plots the energy decay curve.
+* Records or loads a clap sound.
+* Extracts the Room Impulse Response (RIR).
+* Estimates RT60 using Schroeder’s energy decay method.
+* Calculates the approximate room volume.
+* Plots the energy decay curve.
 
 ## Example Results (For clap2.wav)
 Estimated RT60: 1.23 seconds
