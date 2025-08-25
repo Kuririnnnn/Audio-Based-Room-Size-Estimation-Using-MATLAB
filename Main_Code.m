@@ -15,7 +15,7 @@ pause(1);  % Give MATLAB a second to reset
 
 %% Record Audio
 %% Load Pre-recorded Audio Instead of Recording
-[clap, fs] = audioread('clap2.m4a');  % <-- Use your WAV file here
+[clap, fs] = audioread('clap1.wav');  % or clap2.wav (should be the same as the audio you are using)
 clap = clap / max(abs(clap));        % Normalize
 audio = clap;
 
